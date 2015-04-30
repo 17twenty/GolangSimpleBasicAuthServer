@@ -6,7 +6,7 @@ Test using:
 $ curl -u foo:bar http://localhost/api/json
 
 $ curl -X POST -d Hello=Foo http://localhost:1380/api/submit
-What are you playing at?
+Authorisation Required
 
 $ curl -u foo:bar -X POST -d Hello=Foo http://localhost:1380/api/submit
 post request received
